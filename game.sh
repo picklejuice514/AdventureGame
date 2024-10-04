@@ -6,6 +6,8 @@ if [ "$location" == "forest" ]; then
 	cat forest.txt
 elif [ "$location" == "cave" ]; then
 	cat cave.txt
+	echo "But wait..."
+	cat monster.txt
 elif [ "$location" == "castle" ]; then
 	cat castle.txt
 else 
